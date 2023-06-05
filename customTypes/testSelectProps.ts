@@ -16,6 +16,11 @@ export type testSelectProps = {
     isCheckbox?: boolean
 }
 
+export type asyncSelectProps = {
+    options: optionProp[],
+    loadOptions: (inputValue: string) => Promise<optionProp[]>
+}
+
 export type testTwoSelectProps = {
     options: optionProp[],
     placeholder: string,

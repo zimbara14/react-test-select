@@ -4,6 +4,7 @@ import {
     optionProp,
     testSelectProps,
 } from "../customTypes/testSelectProps";
+import {MenuProps} from "./menuProps";
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 import {
     Box, Checkbox,
@@ -67,10 +68,11 @@ function TestSelect(props: testSelectProps) {
     }
 
     return (
-        <Box sx={{ maxWidth: '500px', display: 'flex', justifyContent: 'center', color: 'red'}}>
+        <Box sx={{ width: '500px' }}>
             <FormControl fullWidth>
                 {isMulti ?
                     <Select
+                        MenuProps={MenuProps}
                         ref={ref}
                         multiple={isMulti}
                         value={selectedVal}
@@ -110,6 +112,7 @@ function TestSelect(props: testSelectProps) {
                     </Select>
                     :
                     <Select
+                        MenuProps={MenuProps}
                         labelId="test-select-label"
                         defaultValue=""
                         value={val}

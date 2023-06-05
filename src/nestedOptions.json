@@ -19,8 +19,7 @@
       { "label": "Canberra", "value": "c" },
       { "label": "Williamsdale", "value": "w" },
       { "label": "Darwin", "value": "d" },
-      { "label": "Perth", "value": "p" },
-      { "label": "PerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerth", "value": "p2" }
+      { "label": "Perth", "value": "p" }
     ]
   }
 ]
