@@ -1,0 +1,26 @@
+[
+  {
+    "label": "NSW",
+    "options": [
+      { "label": "Sydney", "value": "s" },
+      { "label": "Newcastle", "value": "n" }
+    ]
+  },
+  {
+    "label": "QLD",
+    "options": [
+      { "label": "Brisbane", "value": "b" },
+      { "label": "Gold coast", "value": "g" }
+    ]
+  },
+  {
+    "label": "Other",
+    "options": [
+      { "label": "Canberra", "value": "c" },
+      { "label": "Williamsdale", "value": "w" },
+      { "label": "Darwin", "value": "d" },
+      { "label": "Perth", "value": "p" },
+      { "label": "PerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerthPerth", "value": "p2" }
+    ]
+  }
+]
